@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:mrtbalancechecker/app/core/appsize.dart';
-import 'package:mrtbalancechecker/app/modules/mainscreen/mainscreen.dart';
+import 'package:mrtbalancechecker/app/modules/mainscreen/page/mainscreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     AppSizes().init(context);
-    return MaterialApp(
+    return GetMaterialApp(
       theme: ThemeData(fontFamily: 'Poppins'),
       debugShowCheckedModeBanner: false,
       home: const Mainscreen(),

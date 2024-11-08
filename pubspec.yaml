@@ -14,6 +14,8 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.6
+  nfc_manager: ^3.5.0
+  get: ^4.6.6
 
 dev_dependencies:
   flutter_test:
